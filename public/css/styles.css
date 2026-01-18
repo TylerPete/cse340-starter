@@ -28,6 +28,41 @@
   justify-content: space-around;
 }
 
+.reviews-list {
+  line-height: 1.75rem;
+}
+
+.upgrade-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  row-gap: 35px;
+}
+
+.figure-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-blue);
+  border: 1px solid var(--black-text);
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure-box img, .figure-box a {
+  display: block;
+}
+
+.figure-box a {
+  position: absolute;
+  bottom: -20px;
+}
+
+footer {
+  clear: both;
+  margin-top: 40px;
+}
 
 @media screen and (min-width: 600px) {
   body {
