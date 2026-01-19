@@ -138,6 +138,7 @@ body {
 
 .figure-box img, .figure-box a {
   display: block;
+  background-color: var(--white-text);
 }
 
 .figure-box a {
